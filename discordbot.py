@@ -29,5 +29,8 @@ async def on_message(message):
 
     if message.content == '制作':
         await message.channel.send('協力 おのすにゃん\n\n©︎ 2020 はづぴす')
+        
+     if message.content == 'MJ':
+        await message.channel.send('PW 1234\n部屋名 はづぴす')
 
 bot.run(token)
