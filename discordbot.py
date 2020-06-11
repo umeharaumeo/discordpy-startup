@@ -14,5 +14,8 @@ async def on_message(message):
 
     if message.content == 'こい':
         await message.channel.send('ボイスチャンネルに参加しろ')
+        
+    if message.content == 'ねえ':
+        await message.channel.send('はい！！')
 
 bot.run(token)
