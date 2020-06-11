@@ -23,4 +23,9 @@ async def hey(ctx):
     await ctx.send('にっこにっこに～！')
     
     
+@bot.command()
+async def ばろ(ctx):
+    await ctx.send('hazupisu#JP1')
+    
+    
 bot.run(token)
