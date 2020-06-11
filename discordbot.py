@@ -12,14 +12,17 @@ async def on_message(message):
     if message.author.bot:
         return
 
-    if message.content == 'こい':
-        await message.channel.send('ボイスチャンネルに参加しろ')
+    if message.content == 'にこちゃん':
+        await message.channel.send('にっこにっこに～！')
         
     if message.content == 'ねえ':
         await message.channel.send('はい！！')
         
     if message.content == 'ばろ':
         await message.channel.send('hazupisu#JP1')
+        
+　　if message.content == '制作者':
+        await message.channel.send('はづぴす')
         
     if message.content == 'クリエイトアドバイザー':
         await message.channel.send('おのすにゃん')
