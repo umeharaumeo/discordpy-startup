@@ -37,6 +37,6 @@ async def on_message(message):
         await message.channel.send('Hazuki.JP')
         
     embed = discord.Embed(title='誰が作ったの？', description='おのすにゃん！', color=’#f0f8ff’)
-await message.content.send(embed=embed)
+　      await message.content.send(embed=embed)
 
 bot.run(token)
