@@ -36,6 +36,9 @@ async def on_message(message):
     if message.content == 'すちーむ':
         await message.channel.send('Hazuki.JP')
         
+ 　 if message.content == 'おのすにゃん':
+        await message.channel.send('ちょびっと良いひと')
+        
     if message.content == 'おのす':
         embed = discord.Embed(title='タイトル', description='タイトルの下のアレ')
         await message.channel.send(embed=embed)
