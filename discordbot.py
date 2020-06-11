@@ -28,6 +28,6 @@ async def on_message(message):
         await message.channel.send('はづぴす')
 
     if message.content == '制作':
-        await message.channel.send('協力 おのすにゃん\n©︎ 2020 はづぴす')
+        await message.channel.send('協力 おのすにゃん\n\n©︎ 2020 はづぴす')
 
 bot.run(token)
