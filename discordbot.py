@@ -36,6 +36,8 @@ async def on_message(message):
     if message.content == 'すちーむ':
         await message.channel.send('Hazuki.JP')
 
+    if message.content == 'すき':
+        await message.channel.send('らぶにこっ(⋈◍＞◡＜◍)。✧♡')
        
         
 bot.run(token)
