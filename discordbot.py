@@ -24,7 +24,7 @@ async def hey(ctx):
     
     
 @bot.command()
-async def (ctx):
+async def valo(ctx):
     await ctx.send('hazupisu#JP1')
     
     
