@@ -20,5 +20,8 @@ async def on_message(message):
         
     if message.content == 'ばろ':
         await message.channel.send('hazupisu#JP1')
+        
+    if message.content == 'クリエイトアドバイザー':
+        await message.channel.send('おのすにゃん')
 
 bot.run(token)
