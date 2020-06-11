@@ -17,5 +17,8 @@ async def on_message(message):
         
     if message.content == 'ねえ':
         await message.channel.send('はい！！')
+        
+    if message.content == 'ばろ':
+        await message.channel.send('hazupisu#JP1')
 
 bot.run(token)
