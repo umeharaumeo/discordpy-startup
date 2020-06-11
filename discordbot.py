@@ -35,5 +35,7 @@ async def on_message(message):
         
     if message.content == 'すちーむ':
         await message.channel.send('Hazuki.JP')
+        
+    embed = discord.Embed(title='クリエイトアドバイザー！', description='おのすにゃん')
 
 bot.run(token)
