@@ -37,8 +37,8 @@ async def on_message(message):
         await message.channel.send('Hazuki.JP')
         
     if message.content == 'おのす':
-        embed = discord.Embed(title='タイトル', description='タイトルの下のアレ', color=’#f0f8ff’)
-        await message.content.send(embed)
+       embed = discord.Embed(title='タイトル', description='タイトルの下のアレ')
+       await message.channel.send(embed=embed)
        
         
 bot.run(token)
