@@ -38,12 +38,6 @@ async def on_message(message):
     if message.content == 'すき':
         await message.channel.send('らぶにこっ(⋈◍＞◡＜◍)。✧♡')
         
-    if message.content == '自己紹介':
-        embed=discord.Embed(title="はづぴす", url="https://twitter.com/hazupisu", description="Twitter")
-        embed.set_thumbnail(url="https://d.kuku.lu/df502ef3d5")
-        embed.add_field(name="undefined", value="undefined", inline=False)
-        embed.add_field(name="undefined", value="undefined", inline=True)
-        await self.bot.say(embed=embed)
           
        
         
