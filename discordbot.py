@@ -1,15 +1,27 @@
-from discord.ext import commands
+import discord
 import os
-import traceback
 
-bot = commands.Bot(command_prefix='/')
 token = os.environ['DISCORD_BOT_TOKEN']
 
-@bot.event
+# 接続に必要なオブジェクトを生成
+client = discord.Client()
+
+# メッセージ受信時に動作する処理
+@client.event
 async def on_message(message):
-    # メッセージ送信者がBotだった場合は無視
+    # メッセージ送信者がBotだった場合は無視する
     if message.author.bot:
         return
+
+    if message.content == 'ID':
+        embed = discord.Embed(title='おのすにゃん', description='', color=0xff0000)
+        embed.add_field(name="Switch", value="0884-9004-7707", inline=True)
+        embed.add_field(name="Origin", value="mgmgOI4i", inline=True)
+        embed.add_field(name="VALORANT", value="もぐもぐおいしい #JP1", inline=True)
+        await message.channel.send(embed=embed)
+
+    if message.content == 'クラウド':
+        await message.channel.send('時代はクラウド')
 
     if message.content == 'にこちゃん':
         await message.channel.send('にっこにっこに～！')
@@ -48,5 +60,6 @@ async def on_message(message):
         await message.channel.send('おかえりママ♡')
         
 
-        
-bot.run(token)
+
+# Botの起動とDiscordサーバーへの接続
+client.run(token)
