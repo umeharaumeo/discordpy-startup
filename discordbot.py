@@ -38,6 +38,10 @@ async def on_message(message):
 
     if message.content == 'すき':
         await message.channel.send('らぶにこっ(⋈◍＞◡＜◍)。✧♡')
+        
+    if message.content == 'はづぴーす'
+        embed.set_image(url='https://d.kuku.lu/745ede93cc')
+        await message.content.send(embed=embed)
        
         
 bot.run(token)
