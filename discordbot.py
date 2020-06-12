@@ -60,6 +60,10 @@ async def on_message(message):
     if message.content == 'ただいま':
         await message.channel.send('おかえりママ♡')
         
+　　if message.content == 'すき':
+        await message.channel.send('だまれ')
+        print(message.author.345226218309681173)
+        
 
 
 # Botの起動とDiscordサーバーへの接続
