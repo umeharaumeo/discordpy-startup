@@ -39,10 +39,7 @@ async def on_message(message):
         await message.channel.send('らぶにこっ(⋈◍＞◡＜◍)。✧♡')
         
     if message.content == 'はづぴす':
-        embed = discord.Embed(title='Twitter', description='https://twitter.com/hazupisu', color=#sssada)
-        embed.set_thumbnail(url='https://d.kuku.lu/df502ef3d5')
-        embed.add_field(name='名前的な', value='内容', inline=True)#
-        embed.set_image(url='画像のURL')
+        embed=discord.Embed(title="はづぴす", url="https://twitter.com/hazupisu", description="Twitter", color=#6c1dda
         await message.content.send(embed=embed)
         
           
