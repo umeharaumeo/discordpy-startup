@@ -5,12 +5,6 @@ import traceback
 bot = commands.Bot(command_prefix='/')
 token = os.environ['DISCORD_BOT_TOKEN']
 
-@client.event
-async def on_message(message):
-    if message.content.startswith("おはよう"):
-        m = "おはよう" + message.author.name
-        await client.send_message(message.channel,m)
-
 @bot.event
 async def on_message(message):
     # メッセージ送信者がBotだった場合は無視
