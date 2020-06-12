@@ -42,7 +42,7 @@ async def on_message(message):
         embed=discord.Embed(title="はづぴす", url="https://twitter.com/hazupisu", description="Twitter", color=0x160409)
         embed.add_field(name="steam", value="Hazuki.JP", inline=True)
         embed.add_field(name="VALORANT", value="hazupisu#JP1", inline=True)
-        await self.bot.say(embed=embed)
+        await message.channel.send(embed=embed)
         
    
         
