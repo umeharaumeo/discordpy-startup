@@ -39,10 +39,13 @@ async def on_message(message):
         await message.channel.send('らぶにこっ(⋈◍＞◡＜◍)。✧♡')
         
     if message.content == 'おかえり':
-        await message.channel.send('ただいまママ♡\n何回も死んでごめんにこ（；；）')
+        await message.channel.send('ただいまママ♡')
         
     if message.content == 'はづぴす':
         await message.channel.send('ママ大好き♡')
+        
+    if message.content == 'ただいま':
+        await message.channel.send('おかえりママ♡')
         
 
         
