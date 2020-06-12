@@ -38,6 +38,11 @@ async def on_message(message):
     if message.content == 'すき':
         await message.channel.send('らぶにこっ(⋈◍＞◡＜◍)。✧♡')
         
+    
+    if message.content == 'はづちゃん':
+        embed=discord.Embed(title=はづぴす, url=https://twitter.com/hazupisu, description=Twitter, color=0x000200)
+        await self.bot.say(embed=embed)
+        
           
        
         
