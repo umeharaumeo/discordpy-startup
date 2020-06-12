@@ -47,9 +47,6 @@ async def on_message(message):
         
     if message.content == 'MJ':
         await message.channel.send('PW 1234\n部屋名 はづぴす')
-        
-    if message.content == 'すちーむ':
-        await message.channel.send('Hazuki.JP')
 
     if message.content == 'すき':
         await message.channel.send('らぶにこっ(⋈◍＞◡＜◍)。✧♡')
