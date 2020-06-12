@@ -39,7 +39,7 @@ async def on_message(message):
         await message.channel.send('らぶにこっ(⋈◍＞◡＜◍)。✧♡')
         
     if message.content == 'ID':
-        embed=discord.Embed(title="はづぴす", url="https://twitter.com/hazupisu", description="Twitter", color=#dawdle)
+        embed=discord.Embed(title="はづぴす", url="https://twitter.com/hazupisu", description="Twitter", color=#ddffcc)
         embed.add_field(name="steam", value="Hazuki.JP", inline=True)
         embed.add_field(name="VALORANT", value="hazupisu#JP1", inline=True)
         await message.channel.send(embed=embed)
