@@ -39,8 +39,8 @@ async def on_message(message):
     if message.content == 'すき':
         await message.channel.send('らぶにこっ(⋈◍＞◡＜◍)。✧♡')
         
-    if message.content == 'はづぴーす':
-        await message.channel.send('https://discordapp.com/channels/720824620822822972/720824620822822975/720824665571983420')
+    if message.content == 'おのすにゃん':
+        await message.channel.send('https://d.kuku.lu/88cff85f38')
        
         
 bot.run(token)
