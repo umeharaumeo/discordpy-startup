@@ -38,6 +38,9 @@ async def on_message(message):
     if message.content == 'すき':
         await message.channel.send('らぶにこっ(⋈◍＞◡＜◍)。✧♡')
         
+    if message.content == 'おかえり':
+        await message.channel.send('ただいまママ♡\n何回も死んでごめんにこ（；；）')
+        
 
         
 bot.run(token)
