@@ -40,8 +40,7 @@ async def on_message(message):
         await message.channel.send('らぶにこっ(⋈◍＞◡＜◍)。✧♡')
         
     if message.content == 'はづぴーす':
-        embed.set_image(url='https://discordapp.com/channels/720824620822822972/720824620822822975/720824665571983420')
-        await message.channel.send(embed=embed)
+        await message.channel.send('https://discordapp.com/channels/720824620822822972/720824620822822975/720824665571983420')
        
         
 bot.run(token)
