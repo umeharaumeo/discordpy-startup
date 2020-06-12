@@ -59,14 +59,7 @@ async def on_message(message):
         
     if message.content == 'ただいま':
         await message.channel.send('おかえりママ♡')
-        
-　　if message.content == 'すき':
-        await message.channel.send('だまれ')
-        print(message.author.345226218309681173)
-        
-    if message.content == 'すき':
-        await message.channel.send('わたしも♡')
-        print(message.author.415854895560917002)
+
         
 
 
