@@ -19,6 +19,13 @@ async def on_message(message):
         embed.add_field(name="Origin", value="mgmgOI4i", inline=True)
         embed.add_field(name="VALORANT", value="もぐもぐおいしい #JP1", inline=True)
         await message.channel.send(embed=embed)
+        
+    if message.content == 'ふれんど':
+        embed = discord.Embed(title='はづぴす', description='', color=0xff0000)
+        embed.add_field(name="VALORANT", value="hazupisu#JP1", inline=True)
+        embed.add_field(name="Origin", value="hazupisu", inline=True)
+        embed.add_field(name="Steam", value="Hazuki.JP", inline=True)
+        await message.channel.send(embed=embed)
 
     if message.content == 'クラウド':
         await message.channel.send('時代はクラウド')
@@ -28,9 +35,6 @@ async def on_message(message):
         
     if message.content == 'ねえ':
         await message.channel.send('はい！！')
-        
-    if message.content == 'ばろ':
-        await message.channel.send('hazupisu#JP1')
         
     if message.content == 'クリエイトアドバイザー':
         await message.channel.send('おのすにゃん')
