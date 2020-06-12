@@ -41,9 +41,8 @@ async def on_message(message):
     if message.content == '自己紹介':    
         embed=discord.Embed(title="はづぴす", url="https://twitter.com/hazupisu", description="Twitter", color=0x160409)
         embed.set_thumbnail(url="https://d.kuku.lu/9cb7b41953")
-        await self.bot.say(embed=embed)
-        
-          
+        await message.channel.send(embed=embed)
+
        
         
 bot.run(token)
