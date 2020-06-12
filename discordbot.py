@@ -37,10 +37,7 @@ async def on_message(message):
 
     if message.content == 'すき':
         await message.channel.send('らぶにこっ(⋈◍＞◡＜◍)。✧♡')
-        
-    if message.content == 'おのすにゃん':
-        await file.channel.send('https://d.kuku.lu/88cff85f38')
-        
+          
        
         
 bot.run(token)
