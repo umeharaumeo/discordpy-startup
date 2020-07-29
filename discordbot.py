@@ -1,7 +1,7 @@
 import discord
 import os
 
-token = os.environ['DISCORD_BOT_TOKEN']
+token = os.environ['NzIwNTc2NzYwODc3Njc4NjQ0.XuIABg.-rd4kCWpYKfzi23LuAq83m1JDt4']
 
 # 接続に必要なオブジェクトを生成
 client = discord.Client()
